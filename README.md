@@ -1,75 +1,92 @@
-# React + TypeScript + Vite
+# 🌌 System Core Portfolio: Đoàn Võ Văn Trọng
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, aesthetically driven portfolio architected for modern web standards. Built with a focus on system engineering principles, professional backend expertise, and a "Cyber-Industrial" design language.
 
-Currently, two official plugins are available:
+![Portfolio Preview](public/avatar1.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏗️ Architectural Core
 
-## React Compiler
+The project has been refactored from a multi-scene state machine into a **Single-Page Scrolling Architecture**, prioritizing user flow and performance.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### ⛓️ Key Technologies
+- **Frontend Engine**: React 19 + TypeScript + Vite
+- **Styling Architecture**: Tailwind CSS 4.0 (Modern utility-first system)
+- **Fluid Motion**: Framer Motion (Orchestrating scene transitions and micro-interactions)
+- **Atmospheric Layer**: Custom Canvas-based Interactive Mesh + CSS Scanline effects
+- **Internationalization**: i18next (Robust multi-language support: VI/EN)
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🎨 Design Philosophy
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Unbounded Hero**: Removal of traditional card-based containers to create an "infinite" system feel.
+- **Portals & Masks**: Massive, masked imagery that blends seamlessly into the atmospheric background.
+- **Visual Hierarchy**: Distinct professional categorization between **Backend Engineering** and **DevOps/Cloud Infrastructure**.
+- **Dynamic Feedback**: Interactive glowing indicators, glitch typography, and floating tech insignia.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+src/
+├── features/          # Domain-driven feature modules
+│   ├── overview/      # Hero section & Professional identity
+│   ├── journey/       # Interactive timeline & Milestones
+│   ├── showcase/      # Project repository & Stats
+│   └── connection/    # Contact hub & Final brand statement
+├── layouts/           # Structural components & Global Background
+├── shared/            # Reusable UI components & Hooks
+├── i18n/              # Localization YAML dictionaries
+└── styles/            # Global CSS, Theme tokens & Keyframes
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Specialized Expertise
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🛠️ Backend Engineering
+- **Ruby on Rails**: Core framework for scalable architectures.
+- **Node.js**: Event-driven server-side solutions.
+
+### ☁️ DevOps & Infrastructure
+- **Docker**: Containerization and environment consistency.
+- **Kubernetes**: Orchestrating complex microservices.
+- **AWS**: Cloud infrastructure deployment and management.
+
+---
+
+## 💻 Development Setup
+
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- Yarn / NPM
+
+### Installation
+```bash
+# Clone the repository
+git clone git@github.com:vantrong2405/Portfolio-vantrong.git
+
+# Install dependencies
+yarn install
+
+# Start development server
+yarn dev
 ```
+
+### Building for Production
+```bash
+yarn build
+```
+
+---
+
+## 🛡️ System Identification
+**ID**: 84-DEV-BE  
+**Status**: ACTIVE / ONLINE  
+**Version**: 2.0 (Architectural Refactor)
+
+---
+
+Developed by **Đoàn Võ Văn Trọng**.  
+*Transforming complex data flows into seamless digital experiences.*
