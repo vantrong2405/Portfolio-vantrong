@@ -15,9 +15,9 @@ export const ShowcaseScene: React.FC = () => {
           {t('showcase.stats.repoTitle')}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {projects.map((project, idx) => (
-            <div key={idx} className={`animate-in fade-in slide-in-from-bottom-${(idx + 1) * 4} duration-700`}>
+            <div key={idx} className="w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-700">
               <ProjectCard project={project} />
             </div>
           ))}
