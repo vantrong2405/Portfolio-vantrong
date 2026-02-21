@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MdLock, MdCode, MdTerminal } from 'react-icons/md';
 import type { ProjectCardProps } from './types';
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+export const ProjectCard: React.FC<ProjectCardProps> = memo(({ project }) => {
   const { t } = useTranslation();
   const [isHovered, setIsHovered] = useState(false);
 
@@ -28,6 +28,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           animate={{ scale: isHovered ? 1.1 : 1, filter: isHovered ? 'saturate(1.2)' : 'saturate(0)' }}
           src={project.image || "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop"}
           alt={project.title}
+          loading="lazy"
           className="w-full h-full object-cover transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-background/40 group-hover:bg-transparent transition-all duration-500" />
@@ -103,4 +104,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="h-1 w-0 group-hover:w-full bg-primary transition-all duration-500" />
     </motion.div>
   );
-};
+});
+
+ProjectCard.displayName = 'ProjectCard';

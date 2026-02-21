@@ -16,8 +16,8 @@ export const ShowcaseScene: React.FC = () => {
         </h2>
 
         <div className="flex justify-center">
-          {projects.map((project, idx) => (
-            <div key={idx} className="w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-700">
+          {projects.map((project) => (
+            <div key={project.systemId} className="w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-700">
               <ProjectCard project={project} />
             </div>
           ))}

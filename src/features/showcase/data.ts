@@ -1,3 +1,4 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Project } from '@/shared/types';
 
@@ -47,13 +48,15 @@ export const useProjects = (): Project[] => {
   const { i18n } = useTranslation();
   const currentLang = (i18n.language || 'en') as 'vi' | 'en';
 
-  return PROJECTS_DATA.map((project) => ({
-    title: project.translations[currentLang].title,
-    category: project.translations[currentLang].category,
-    systemId: project.systemId,
-    description: project.translations[currentLang].description,
-    stack: project.stack,
-    githubUrl: project.githubUrl,
-    image: project.image,
-  }));
+  return React.useMemo(() => {
+    return PROJECTS_DATA.map((project) => ({
+      title: project.translations[currentLang].title,
+      category: project.translations[currentLang].category,
+      systemId: project.systemId,
+      description: project.translations[currentLang].description,
+      stack: project.stack,
+      githubUrl: project.githubUrl,
+      image: project.image,
+    }));
+  }, [currentLang]);
 };
