@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { MdLock, MdCode, MdTerminal } from 'react-icons/md';
 import type { ProjectCardProps } from './types';
 
@@ -70,24 +70,20 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         </p>
 
         {/* Mini Deploy Log */}
-        <div className="h-12 overflow-hidden mb-4 bg-black/40 rounded border border-primary/5 p-2 transition-opacity duration-500 opacity-40 group-hover:opacity-100">
-          <AnimatePresence>
-            {isHovered && (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="text-[9px] font-mono text-primary/80"
-              >
-                <div className="flex items-center gap-2">
-                  <MdTerminal className="animate-pulse" />
-                  <span className="uppercase tracking-widest">{t('showcase.card.booting')}</span>
-                </div>
-                <div className="text-muted-foreground mt-1 truncate">
-                  {t('showcase.card.stackPrefix')} {project.stack.join(' / ').toUpperCase()}
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+        <div className="h-12 overflow-hidden mb-4 bg-black/40 rounded border border-primary/5 p-2 transition-opacity duration-500 opacity-60 group-hover:opacity-100">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-[9px] font-mono text-primary/80"
+          >
+            <div className="flex items-center gap-2">
+              <MdTerminal className="animate-pulse" />
+              <span className="uppercase tracking-widest">{t('showcase.card.booting')}</span>
+            </div>
+            <div className="text-muted-foreground mt-1 truncate">
+              {t('showcase.card.stackPrefix')} {project.stack.join(' / ').toUpperCase()}
+            </div>
+          </motion.div>
         </div>
 
         {/* Tech Stack */}
