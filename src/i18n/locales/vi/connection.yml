@@ -1,0 +1,16 @@
+button: "Khởi tạo Liên hệ"
+chips:
+  experience: "1 Năm Kinh Nghiệm"
+  location: "Thành phố Đà Nẵng"
+techId: "ID: 8392-DEV-VN"
+identity:
+  ready: "HỆ THỐNG: TRỰC TUYẾN"
+  role: "DevOps & Backend Engineer"
+  framework: "Cốt lõi Hệ thống"
+  visualization: "Trực quan hóa Hệ thống"
+labels:
+  email: "Email"
+  phone: "Điện thoại"
+  github: "GitHub"
+  facebook: "Facebook"
+  instagram: "Instagram"
