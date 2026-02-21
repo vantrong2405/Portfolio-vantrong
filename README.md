@@ -1,92 +1,111 @@
-# 🌌 System Core Portfolio: Đoàn Võ Văn Trọng
+# 🌌 SYSTEM CORE PORTFOLIO: Vantrong 2.0
 
-A high-performance, aesthetically driven portfolio architected for modern web standards. Built with a focus on system engineering principles, professional backend expertise, and a "Cyber-Industrial" design language.
+> **[ HIGH-PERFORMANCE BACKEND ARCHITECTURE • DEVOPS ENGINE • CYBER-INDUSTRIAL DESIGN ]**
 
-![Portfolio Preview](public/avatar1.jpg)
-
-## 🏗️ Architectural Core
-
-The project has been refactored from a multi-scene state machine into a **Single-Page Scrolling Architecture**, prioritizing user flow and performance.
-
-### ⛓️ Key Technologies
-- **Frontend Engine**: React 19 + TypeScript + Vite
-- **Styling Architecture**: Tailwind CSS 4.0 (Modern utility-first system)
-- **Fluid Motion**: Framer Motion (Orchestrating scene transitions and micro-interactions)
-- **Atmospheric Layer**: Custom Canvas-based Interactive Mesh + CSS Scanline effects
-- **Internationalization**: i18next (Robust multi-language support: VI/EN)
+Welcome to the **System Core**, a next-generation portfolio architected for modern web standards. This project serves as a living demonstration of specialized backend expertise, cloud infrastructure orchestration, and premium frontend engineering.
 
 ---
 
-## 🎨 Design Philosophy
+## 🛡️ SYSTEM IDENTIFICATION
 
-- **Unbounded Hero**: Removal of traditional card-based containers to create an "infinite" system feel.
-- **Portals & Masks**: Massive, masked imagery that blends seamlessly into the atmospheric background.
-- **Visual Hierarchy**: Distinct professional categorization between **Backend Engineering** and **DevOps/Cloud Infrastructure**.
-- **Dynamic Feedback**: Interactive glowing indicators, glitch typography, and floating tech insignia.
+| CATEGORY | SPECIFICATION |
+| :--- | :--- |
+| **ARCHITECT** | **Đoàn Võ Văn Trọng** |
+| **CORE PROTOCOL** | Backend Engineering & Systems Design |
+| **DEPLOYMENT STATUS** | 🟢 ACTIVE / ONLINE |
+| **REGION** | Vietnam (GMT+7) |
+| **SYSTEM VERSION** | `v2.0.0-Refactor` |
 
 ---
 
-## 📂 Project Structure
+## 🚀 THE CORE ENGINE (TECH STACK)
+
+Built on a bleeding-edge stack to ensure maximum performance, stability, and developer experience.
+
+### ⚡ HIGH-SPEED FRONTEND
+- **Frontend Engine**: `React 19` (utilizing React Compiler for optimized rendering)
+- **Next-Gen Build**: `Vite 8.0 (Beta)` for instantaneous hot-reloading
+- **Type Safety**: `TypeScript` for robust, self-documenting code
+- **Motion System**: `Framer Motion 12` for cinematic scene orchestration
+
+### 🎨 DESIGN & ATMOSPHERE
+- **Style Engine**: `Tailwind CSS 4.0` (Native CSS variables & modern utility system)
+- **Immersive Layer**: Custom Canvas-based Interactive Mesh + Glitch Effects
+- **Visual Identity**: "Unbounded Hero" design – eliminating constraints for an infinite feel
+
+### 🌎 GLOBALIZATION
+- **Language Core**: `i18next` with full **Vietnamese (VI)** and **English (EN)** support
+- **State Management**: Context-based locale switching with dynamic YAML dictionary loading
+
+---
+
+## 🏗️ ARCHITECTURAL BLUEPRINT
+
+The project follows a **Domain-Driven Feature Module (DDFM)** structure, decoupling logic by business capability rather than technical type.
 
 ```bash
 src/
-├── features/          # Domain-driven feature modules
-│   ├── overview/      # Hero section & Professional identity
-│   ├── journey/       # Interactive timeline & Milestones
-│   ├── showcase/      # Project repository & Stats
-│   └── connection/    # Contact hub & Final brand statement
-├── layouts/           # Structural components & Global Background
-├── shared/            # Reusable UI components & Hooks
-├── i18n/              # Localization YAML dictionaries
-└── styles/            # Global CSS, Theme tokens & Keyframes
+├── features/          # Domain-driven feature clusters
+│   ├── overview/      # Professional Identity & Hero Portal
+│   ├── journey/       # Interactive Milestone Timeline
+│   ├── showcase/      # Project Repositories & Tech Analytics
+│   └── connection/    # Contact Grid & Binary Response Hub
+├── layouts/           # Structural Scaffolding & Atmospheric Backgrounds
+├── shared/            # Atomic Components & Universal Hooks
+├── i18n/              # Multi-channel Locale Configurations (YAML)
+└── styles/            # Theme Tokens, Keyframes & Scanline Logic
 ```
 
 ---
 
-## 🚀 Specialized Expertise
+## 🛠️ SPECIALIZED CAPABILITIES
 
-### 🛠️ Backend Engineering
-- **Ruby on Rails**: Core framework for scalable architectures.
-- **Node.js**: Event-driven server-side solutions.
+### ⚙️ BACKEND ENGINEERING
+Specializing in high-concurrency, scalable server-side systems using **Ruby on Rails** and **Node.js**. Implementation of RESTful/GraphQL APIs and microservices orchestration.
 
-### ☁️ DevOps & Infrastructure
-- **Docker**: Containerization and environment consistency.
-- **Kubernetes**: Orchestrating complex microservices.
-- **AWS**: Cloud infrastructure deployment and management.
+### ☁️ CLOUD INFRASTRUCTURE
+Expertise in modern DevOps practices – containerization with **Docker** & **Kubernetes**, and cloud lifecycle management via **AWS**.
+
+### 🧪 SCIENTIFIC RESEARCH & HONORS
+- **Graduated with Honors** - Duy Tan University (DTU)
+- **2nd Prize Winner** - Scientific Research (NCKH)
+- **Ruby Silver Certified**
 
 ---
 
-## 💻 Development Setup
+## 💻 DEVELOPMENT OPERATIONS
 
-### Prerequisites
-- Node.js (Latest LTS recommended)
-- Yarn / NPM
-
-### Installation
+### INITIALIZATION
 ```bash
-# Clone the repository
+# Clone the repository core
 git clone git@github.com:vantrong2405/Portfolio-vantrong.git
 
-# Install dependencies
+# Install dependencies via Yarn
 yarn install
-
-# Start development server
-yarn dev
 ```
 
-### Building for Production
+### BOOT SEQUENCE
 ```bash
+# Start development environment
+yarn dev
+
+# Compile production bundle
 yarn build
 ```
 
 ---
 
-## 🛡️ System Identification
-**ID**: 84-DEV-BE  
-**Status**: ACTIVE / ONLINE  
-**Version**: 2.0 (Architectural Refactor)
+## 🛰️ TRANSMISSION HUB
+
+Ready to build the next generation of scalable systems. Let's initialize a connection.
+
+- **Status**: [AVAILABLE FOR HIRE / COLLABORATION]
+- **Email**: Check the **Connection Hub** in-app.
+- **LinkedIn**: [Vantrong](https://linkedin.com/in/vantrong2405)
 
 ---
 
-Developed by **Đoàn Võ Văn Trọng**.  
-*Transforming complex data flows into seamless digital experiences.*
+> "Transforming complex data flows into seamless digital experiences."
+> – **Đoàn Võ Văn Trọng**
+
+&copy; 2026 System Core Portfolio. All protocols reserved.
