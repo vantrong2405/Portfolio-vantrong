@@ -5,7 +5,7 @@ import { SiKubernetes } from 'react-icons/si';
 import { MdArrowForwardIos, MdVerified } from 'react-icons/md';
 import type { SocialLinkProps } from './types';
 
-const AVATAR_URL = "/avatar.jpg";
+const AVATAR_URL = "/avatar1.jpg";
 
 const SocialLink: React.FC<SocialLinkProps> = ({ icon: Icon, label, href = "#" }) => (
   <a
